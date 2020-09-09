@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Login and Update Profile Test(failed)">
+    <classes>
+      <class name="AutomationTest.BrightTalkTest.RunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AutomationTest.BrightTalkTest.RunnerTest -->
+    </classes>
+  </test> <!-- Login and Update Profile Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
